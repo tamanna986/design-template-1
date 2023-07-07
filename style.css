@@ -45,14 +45,16 @@
     justify-content: center;
 }
 .weight{
-    font-size: 60px;    
+    font-size: 60px; 
+    color: white;   
 }
 
-p{
-    font-size: 20px;
+.p-style{
+    font-size: 18px;
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-right: 10px;  
+    padding-right: 10px;
+    color: white;  
 }
 .btn{
     padding:13px 22px ;
@@ -78,7 +80,7 @@ p{
     width: 220px;
     background-color:rgb(4, 37, 4) ;
     color: white;
-    box-shadow:30px rgb(90, 199, 90);
+    box-shadow:20px rgb(25, 146, 25);
     padding: 20px;
     text-align: center;
     box-shadow: 4px  2px 105px rgb(107, 219, 96);
@@ -101,4 +103,56 @@ p{
 .service{
     display: flex;
     justify-content: space-around;
+}
+.bg{
+    background-color: rgb(4,37,4);
+    height: 500px;
+    padding: 30px;
+}
+.pd{
+    padding: 30px;
+}
+.bottom{
+    
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   margin-left: 150px;
+   margin-right: 150px;
+  
+    
+}
+.logo-footer{
+    height: 35px;
+}
+h4{
+    20px;
+}
+.colour{
+    color: black;
+}
+.line-space{
+padding-bottom: 10px;
+}
+ .footer-title{
+        margin-bottom: 30px;
+    }
+p{
+    font-size: 18px;
+}
+.footer-bg{
+    background-color: #011305;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.clr-white{
+    color: white;
+}
+hr{
+    margin-left: 150px;
+    margin-right:150px;
 }
